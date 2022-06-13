@@ -1,0 +1,185 @@
+.title {
+    color: #1b31a8;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.card {
+    width: "560px";
+    height: "511px";
+    display: "flex";
+    flex-direction: "column";
+    align-items: "center";
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+.iconsloan {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.counter {
+    border: solid 1px #afbbc4;
+    border-radius: 4px;
+    padding-top: 10.5px;
+    padding-bottom: 7.5px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 192px;
+    margin-left: 16px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#tenure {
+    margin-left: 10%;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.inputs {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 480px;
+}
+
+.subtitle {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.inputLoan {
+    width: 272px;
+}
+
+.result {
+    width: 480px;
+    height: 155px;
+    border: solid 1px #afbbc4;
+    border-radius: 8px;
+    margin-top: 24px;
+    padding-bottom: 3px;
+}
+
+.monthlyAmount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.monthly {
+    font-weight: 400;
+    font-size: "20px";
+}
+
+.amount {
+    color: #0079ff;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.description {
+    background-color: #f4f8fa;
+    font-size: 12px;
+    font-weight: 600;
+    height: 75px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media screen and (max-device-width: 640px), screen and (max-width: 640px) {
+    .inputs {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 100%;
+    }
+    .card .w-full {
+        width: 360px;
+        height: 586px;
+    }
+
+    .title {
+        top: 134px;
+    }
+
+    .result {
+        width: 312px;
+        height: 155px;
+    }
+
+    .inputContainer {
+        width: 312px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 16px;
+    }
+
+    .inputLoan {
+        width: 312px;
+        margin-left: 24px;
+    }
+
+    .counter {
+        width: 312px;
+        height: 56px;
+        margin-left: 0%;
+    }
+
+    .description {
+        font-weight: 400;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .amount {
+        font-size: 24px;
+    }
+
+    .monthly {
+        font-size: "20px";
+    }
+
+    .monthlyAmount {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
